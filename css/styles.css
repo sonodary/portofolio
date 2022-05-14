@@ -149,22 +149,82 @@ p {
 /* Testiomonial */
 
 #portfolio {
-  background-color: #ef8172;
 }
-
-.testimonial-image {
-  width: 10%;
-  border-radius: 100%;
-  margin: 20px;
-}
-
-.testimonial-text {
+.portfolio-title {
+  padding-top: 7%;
   font-size: 3rem;
+}
+.app-img {
+  width: 100%;
+  margin: 5px;
+}
+.app-text {
+  padding-top: 5%;
+  font-size: 1.5rem;
   line-height: 1.5;
+  font-weight: 300;
+}
+
+.Chinese-app-text {
+  padding-top: 3%;
+  font-size: 1.3rem;
+  line-height: 1.3;
+  font-weight: 300;
+}
+
+.Chinese-app-title {
+  font-size: 1.6rem;
+}
+.app-title {
+  font-size: 2rem
 }
 
 .carousel-item {
-  padding: 7% 15%;
+  padding: 3% 15%;
+}
+
+.hover-img {
+  position: relative;
+}
+
+.hover-img .text1 {
+	font-size:		5rem;
+	text-align: 		center;
+	padding-top:		20%;
+	color:			#fff;
+}
+
+.hover-img .text2 {
+	font-size:		3rem;
+	text-align: 		center;
+	padding-top:		1%;
+	color:			#fff;
+}
+
+.hover-img .CWLO-text1 {
+	font-size:		5rem;
+	text-align: 		center;
+	padding-top:		10%;
+	color:			#fff;
+}
+
+
+
+.hover-img .hover-text {
+	width:			100%;
+	height:			100%;
+	position:		absolute;	/* 絶対位置指定 */
+	top:			0;
+	left:			0;
+	opacity:		0;	/* マスクを表示しない */
+	background-color:	rgba(0,0,0,0.4);	/* マスクは半透明 */
+	-webkit-transition:	all 0.2s ease;
+	transition:		all 0.2s ease;
+}
+
+.hover-img:hover .hover-text {
+  /*不透明にして表示*/
+  opacity: 1;
 }
 
 #press {
@@ -177,6 +237,20 @@ p {
   margin: 20px;
 }
 
+/* experience */
+#experience {
+  padding: 100px;
+}
+.experience-description {
+  font-size: 1.3rem;
+  text-align: left;
+  padding-left: 27%;
+  padding-right: 22%;
+}
+.job-title {
+  font-weight: 400;
+  line-height: 3;
+}
 /* Pricing Card  */
 #skill {
   padding: 100px;
@@ -199,8 +273,12 @@ p {
 }
 
 .programing-lng {
-  text-align: right;
-  padding-right: 20%;
+  text-align: center;
+}
+
+.three-languages-title {
+  font-size: 1.5rem;
+  padding-bottom: 1.5%;
 }
 
 .card {
