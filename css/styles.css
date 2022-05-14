@@ -1,0 +1,255 @@
+body{
+  font-family: "Montserrat";
+  font-weight: 400;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Heading */
+
+.top-image {
+  width: 100px;
+}
+.big-name {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.short-intro {
+  font-size: 1.4rem;
+  font-family: "Montserrat";
+  font-weight: 400;
+  padding-top: 5%;
+  line-height: 1.5;
+}
+
+.detailed-intro {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+  padding-top: 5%;
+  line-height: 1.5;
+}
+
+/* Section */
+.colored-section {
+  background-color: #90e0ef;
+  color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+#title {
+  text-align: left;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+
+/* Navigation bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+  color: black;
+}
+
+.navbar-light .navbar-brand {
+  color: black;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+/* title-image */
+
+.title-image {
+  width: 60%;
+  margin-left: 6rem;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+/* feature */
+
+#background {
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+}
+.background-title {
+  padding-bottom: 5%;
+}
+
+.feature-row {
+  margin-bottom: 1rem;
+}
+
+.feature-icon {
+  color: #ef8172;
+  padding-bottom: 5%;
+}
+
+.feature-bold {
+  font-size: 1.5rem;
+}
+
+.font-description {
+  color: #8f8f8f;
+}
+
+.feature-icon:hover {
+  color: #ff4c68
+}
+
+/* Testiomonial */
+
+#portfolio {
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px;
+}
+
+/* Pricing Card  */
+#skill {
+  padding: 100px;
+  color: black;
+}
+
+.skill-icon {
+  color: #2988bc;
+  padding-bottom: 5%;
+}
+
+.skill-icon:hover {
+  color: black;
+}
+
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.programing-lng {
+  text-align: right;
+  padding-right: 20%;
+}
+
+.card {
+  padding: 3% 5%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* contact */
+
+.contact-text {
+  font-size: 1.4rem;
+  font-family: "Montserrat";
+  font-weight: 400;
+  padding-top: 5%;
+}
+.contact-btns{
+  margin: auto 32%;
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+.cta-button {
+  margin: 1% 2% 30% 2%;
+}
+
+#footer {
+  padding: 7% 15%;
+  background-color: #fff;
+}
+
+.contact-icon {
+  margin: 20px 10px;
+}
+.fa-linkedin {
+  color: #0e76a8;
+}
+.fa-facebook {
+  color: #3b5998;
+}
+.fa-envelope {
+  color: black;
+}
+.fa-github {
+  color: #171515;
+}
